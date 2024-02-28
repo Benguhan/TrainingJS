@@ -1,0 +1,29 @@
+body {
+    background-color: pink;
+}
+#countLabel {
+    display: block;
+    text-align: center;
+    font-size: 8em; /* 8 times the default font size */
+    font-family: Helvetica, sans-serif;
+}
+
+#buttonContainer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttons {
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 3px solid #76a7db;
+    border-radius: 5px;
+    color: white;
+    background-color: #76a7db;
+    cursor: pointer; /* Changes the mouse cursor to a hand */
+    transition: background-color 0.5s; /* Smoothly transition the background color */
+}
+
+.buttons:hover {
+    background-color: #1971cf;
+}
